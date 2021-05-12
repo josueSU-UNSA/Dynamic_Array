@@ -1,6 +1,6 @@
 #include <iostream>
 #include <conio.h>
-#include "DynamicArray.cpp"
+#include "DynamicArray.h"
 
 using namespace std;
 
