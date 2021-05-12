@@ -63,8 +63,7 @@ void DynamicArray::insert(Point elem, int pos){//metodo insert
             count+=1;//el contador se incrementa ya que entra en la condicion
         }
         else{
-            tmp[i].setX(elem.getX());//realizamos los intercambios mediante los metodos set respectivos
-            tmp[i].setY(elem.getY());
+            tmp[i]=elem;//realizamos los intercambios mediante los metodos set respectivos
         }
 
     }
